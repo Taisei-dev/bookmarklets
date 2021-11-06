@@ -6,4 +6,4 @@ newwin.document.write('
 	<style>pre{padding:1em;border-radius:5px;background:#25292f;color:#fff;overflow-x:auto;-webkit-overflow-scrolling:touch;}</style>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
 	<script>document.querySelectorAll("pre code").forEach((el)=>{hljs.highlightElement(el);})</script>');
-	document.close();void(0);
+document.close();void(0);
