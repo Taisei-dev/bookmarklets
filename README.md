@@ -3,7 +3,8 @@
 
 ## editwebsite.js
 webページを編集できるようにします()
-Thanks to @herokuhabataku
+
+Thanks to (@herokuhabataku)[https://github.com/herokuhabataku]
 
 ## jsinjection.js
 jsをinjectします
