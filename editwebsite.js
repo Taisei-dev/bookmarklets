@@ -2,11 +2,13 @@ javascript:
 if(document.title==="規制"){
 var url=document.getElementById("url");
 var blockedurl=url.innerText;
-url.innerHTML='<form action="https://manabijuku.herokuapp.com/index.php" method="post" style="margin-bottom:0;">
-		<input name="url" type="text" style="width:400px;" autocomplete="off" value="">
-		<input type="submit" value="Go">
-	</form>
-       <style>#url{
+url.innerHTML='
+<form action="https://manabijuku.herokuapp.com/index.php" method="post" style="margin-bottom:0;">
+  <input name="url" type="text" style="width:400px;" autocomplete="off" value="">
+  <input type="submit" value="Go">
+</form>
+<style>
+#url{
 　　　　　word-break:break-all;	
 }
 #url input[type="text"] {
