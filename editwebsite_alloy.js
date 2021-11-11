@@ -9,52 +9,45 @@ url.innerHTML='
                 <button id="initiate">Go</button>
            </div>  
      </div>
-     <style>
-#url {
-    width: 100%;
-    padding: 50px;
-    position: absolute;
-    display: flex;
-    flex: 1;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+<style>
+#form{
+　　　　　word-break:break-all;	
 }
-.container {
-    width: 900px;
-    background: #23272a;
-    padding: 25px;
-    margin: 5px 0px;
-    text-align: left;
-    display: block;
-    border: solid 1px rgb(255, 255, 255, .2);
+#form input[type="text"] {
+	font-size:1.0em;
+        border: 0px solid #ffffff;
+        outline: 0;
+	-webkit-appearance: none;
+	font-family:"Hiragino Mincho ProN"
 }
-.form input {
-    width: calc(100% - 64px);
-    height: 50px;
-    left: 0;
-    color: #FFF;
-    padding: 0px 5px;
-    font-family: "Roboto";
-    background: none;
-    font-size: 14px;
-    border-radius: 2px;
-    border: solid 1px rgb(255, 255, 255, .2);
+#form input[type="text"]:focus{
+	outline: 0;
+	-webkit-appearance: none;
+        border-color: #ffffff;
+	font-family:"Hiragino Mincho ProN"
+	font-size:1.0em;
 }
-.form button {
-    width: 60px;
-    height: 50px;
-    color: #FFF;
-    padding: 0px 5px;
-    font-family: "Roboto";
-    font-size: 14px;
-    background: none;
-    border-radius: 2px;
-    border: solid 1px rgb(255, 255, 255, .2);
-}
-     </style>
+#form input[type="submit"]{
+	font-size:1.0em;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+	border: none; 
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+	color: #ffffff;
+        background-color: #ffffff;
+	background: transparent;
+}</style>
 ';
-var input = document.querySelector("#url");
+var input = document.querySelector("#input");
 input.addEventListener("keyup", (key) => {
     if (key.keyCode == 13) { 
         if (!input.value.trim().length) return;
@@ -66,4 +59,6 @@ document.querySelector("#initiate").addEventListener("click", () => {
     window.location.assign(`https://isgcblock-iss-netstar-inc-8080.herokuapp.com/prox/?url=${btoa(input.value)}`);
 
 });
-document.close();void(0);
+document.close();
+}
+void(0);
