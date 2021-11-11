@@ -5,7 +5,7 @@ var blockedurl=url.innerText;
 url.innerHTML='
 <div class="container">
            <div class="form">
-                <input type="text" value="http://isgcblock-iss-netstar-inc-8080.herokuapp.com/" style="width:500px;" id="url">
+                <input type="text" value="http://isgcblock-iss-netstar-inc-8080.herokuapp.com/" style="width:500px;" id="input">
                 <button id="initiate">Go</button>
            </div>  
      </div>
