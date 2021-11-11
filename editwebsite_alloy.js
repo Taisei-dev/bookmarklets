@@ -13,21 +13,21 @@ url.innerHTML='
 #form{
 　　　　　word-break:break-all;	
 }
-#form input[type="text"] {
+#input{
 	font-size:1.0em;
         border: 0px solid #ffffff;
         outline: 0;
 	-webkit-appearance: none;
 	font-family:"Hiragino Mincho ProN"
 }
-#form input[type="text"]:focus{
+#input:focus{
 	outline: 0;
 	-webkit-appearance: none;
         border-color: #ffffff;
 	font-family:"Hiragino Mincho ProN"
 	font-size:1.0em;
 }
-#form input[type="submit"]{
+#initiate{
 	font-size:1.0em;
         position: relative;
         display: inline-block;
