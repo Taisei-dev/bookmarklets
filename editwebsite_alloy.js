@@ -53,18 +53,17 @@ url.innerHTML='
     border: solid 1px rgb(255, 255, 255, .2);
 }
      </style>
-     <script>
-var input = document.querySelector('#url');
-input.addEventListener('keyup', (key) => {
+';
+var input = document.querySelector("#url");
+input.addEventListener("keyup", (key) => {
     if (key.keyCode == 13) { 
         if (!input.value.trim().length) return;
         window.location.assign(`https://isgcblock-iss-netstar-inc-8080.herokuapp.com/prox/?url=${btoa(input.value)}`);
     }
 });
-document.querySelector("#initiate").addEventListener('click', () => {
+document.querySelector("#initiate").addEventListener("click", () => {
     if (!input.value.trim().length) return;
     window.location.assign(`https://isgcblock-iss-netstar-inc-8080.herokuapp.com/prox/?url=${btoa(input.value)}`);
 
 });
-     </script>
-';
+document.close();void(0);
