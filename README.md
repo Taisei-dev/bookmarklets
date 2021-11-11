@@ -4,9 +4,9 @@
 ## editwebsite.js
 webページを編集できるようにします()
 
-Thanks to [@herokuhabataku](https://github.com/herokuhabataku)
-
 alloy版とPHP版があります
+
+Thanks to [@herokuhabataku](https://github.com/herokuhabataku)
 
 ## jsinjection.js
 好きなJavaScriptを実行できます
