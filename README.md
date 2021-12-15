@@ -1,5 +1,8 @@
 # bookmarklets
-ブックマークレットで作った便利ツール
+ブックマークレットで作った便利ツール  
+ブックマークレットとは？な人向け
+https://wayohoo.com/article/5444  
+登録手順も載っています  
 
 ## devtool.js
 開発者ツールをiPad/iPhoneなどでも使えるようにするツール  
