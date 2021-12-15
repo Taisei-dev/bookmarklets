@@ -11,12 +11,12 @@ webページを編集できるようにします(それだけ)
 ## ~~editwebsite_alloy.js~~  
 ~~webページを編集できるようにします(※特定のサイトに限り使えます)~~  
 ~~alloy proxy使用~~  
-**現在使えません**
+**現在使えません**  
 Thanks to [@herokuhabataku](https://github.com/herokuhabataku)  
 
 ## editwebsite_php.js
 webページを編集できるようにします(※特定のサイトには付加機能があります)   
-PHProxy使用
+PHProxy使用  
 Thanks to [@herokuhabataku](https://github.com/herokuhabataku)  
 
 ## finish_editingwebsite.js
