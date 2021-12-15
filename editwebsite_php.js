@@ -45,5 +45,12 @@ url.innerHTML='
 	background: transparent;
 }</style>';
 document.getElementsByName("url")[0].value=blockedurl;
-document.close();}
-void(0);
+document.close();
+document.body.contentEditable = "true";
+document.designMode = "on";
+}
+else{
+document.body.contentEditable = "true";
+document.designMode = "on";
+}
+completion();
