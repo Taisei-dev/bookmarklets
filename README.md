@@ -7,11 +7,12 @@ iOS15のWeb Inspector拡張機能と同じライブラリを使用(iOS15以下or
 
 ## editwebsite.js
 webページを編集できるようにします(それだけ)  
+Safari、Chrome両方対応  
 
 ## ~~editwebsite_alloy.js~~  
 ~~webページを編集できるようにします(※特定のサイトに限り使えます)~~  
 ~~alloy proxy使用~~  
-**現在使えません**  
+**現在使えないかもしれません**  
 Thanks to [@herokuhabataku](https://github.com/herokuhabataku)  
 
 ## editwebsite_php.js
@@ -24,7 +25,7 @@ webページの編集を終了します
 上のeditingwebsite.jsを使った後に使うと普通のwebページに戻ります  
 
 ## jsinjection.js
-好きなJavaScriptを実行できます  
+好きなJavaScriptを入力して実行できます  
 
 ## sourceviewer.js
 ページのソースコードを色分けして表示します  
