@@ -1,15 +1,16 @@
 # bookmarklets
 ブックマークレットで作った便利ツール  
-ブックマークレットとは？な人向け
+ブックマークレットとは？な人向け↓
 https://wayohoo.com/article/5444  
 登録手順も載っています  
 
 ## devtool.js
 開発者ツールをiPad/iPhoneなどでも使えるようにするツール  
-iOS15のWeb Inspector拡張機能と同じライブラリを使用(iOS15以下orストアなしで使うならこっち)  
+iOS15のWeb Inspector拡張機能と同じライブラリを使用  
+(iOS15以下orストアなしで使うならこっち)  
 
 ## editwebsite.js
-webページを編集できるようにします(それだけ)  
+webページを編集できるようにします(1機能のみ)  
 Safari、Chrome両方対応  
 
 ## ~~editwebsite_alloy.js~~  
